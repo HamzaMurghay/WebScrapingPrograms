@@ -17,7 +17,7 @@ print()  # in order to leave one line of space between input and output, USED ON
 
 
 def get_courses():
-    page_info_raw = requests.get('https://www.coursera.org/courses?query=data%20engineering').text  # Notice how we put the page request after the input, this is to ensure that if the user inputs their skills late by mistake, the information on the requested page is not outdated, cuz if we request data first and then ask user, then say after 5 hours that info will be outdated
+    page_info_raw = requests.get('https://www.coursera.org/courses?query=data%20engineering').text
     page_info_souped = BeautifulSoup(page_info_raw, "lxml")
     courses_list = page_info_souped.find_all('li', class_='cds-9 css-0 cds-11 cds-grid-item cds-56 cds-64 cds-76')
 
