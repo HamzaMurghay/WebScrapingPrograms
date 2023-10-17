@@ -10,4 +10,4 @@ Points To Remember: (For Coursera Webscrape Program)
 
 Points to Note: (For Manhwa Update Tracker)
 
-1)The program will check through a list of URLs that lead to the manhwas(which explained in the most simple way, are comics that update weekly, but at an irregular schedule, hence the need for the program) that I read and see if it has updated, if it has, it emails me to notify me
+1) The program will check through a list of URLs that lead to the manhwas(which explained in the most simple way, are comics that update weekly, but at an irregular schedule, hence the need for the program) that I read and see if it has updated, if it has, it emails me to notify me
