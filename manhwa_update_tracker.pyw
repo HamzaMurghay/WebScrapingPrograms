@@ -1,5 +1,3 @@
-# This program will check through a list of URLs that lead to the manhwas(which explained in the most simple way, are comics that update weekly) that I read and see if it has updated, if it has, it emails me to notify me (also maybe maybeeee planning to maybe make a pdf file with the chapter, mostly not tho, at least not now)
-
 # Knowledge and Modules used: Web Scraping, handling and performing operations on date and time,Email messaging from python, finding error specifics using sys module, very basic HTML
 
 from bs4 import BeautifulSoup  # From here
